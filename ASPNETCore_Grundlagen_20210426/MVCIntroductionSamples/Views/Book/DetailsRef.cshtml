@@ -1,0 +1,15 @@
+﻿@using MVCIntroductionSamples.Models
+@model Book
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+<p>ID: @Model.Id</p>
+<p>Title: @Model.Title</p>
+<p>Desc: @Model.Description</p>
+<p>Autor: @Model.Autor</p>
+
+

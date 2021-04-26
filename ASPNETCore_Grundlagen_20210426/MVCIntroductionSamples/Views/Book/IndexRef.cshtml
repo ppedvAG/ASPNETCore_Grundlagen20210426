@@ -1,0 +1,161 @@
+﻿@using MVCIntroductionSamples.Models
+
+@model IEnumerable<Book>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Zeige den ersten Datensatz an, wenn Daten vorhanden sind</h1>
+
+
+<p>ID: @Model.First().Id.ToString()</p>
+
+
+<!-- Model mit "@@" wird in HMTL-Code verwendet, um zu signalisieren, dass wir mit C#-Sprachstrukturen oder C#-Datenstrukturen arbeiten -->
+@if (Model.Any())
+{
+    //Model ohne @-Zeichen wird verwenden in C# Blöcken
+    //Model.First().Id.ToString();
+    //Model.First().Title.ToString();
+    //Model.First().Description.ToString();
+    //Model.First().Autor.ToString();
+
+    <p>@Model.First().Id</p>
+    <p>@Model.First().Title</p>
+
+
+
+    if (Model.First().Title == "Herr der Ringe")
+    {
+        <p>Harry Potter ist der erste Eintrag in meiner Buchliste</p>
+    }
+    else
+    {
+        <p>Harry Potter ist nicht der erste Eintrag in meiner Buchliste</p>
+    }
+}
+
+<p>Forech Example</p>
+@foreach (Book currentBook in Model)
+{
+    <p>@currentBook.Id</p>
+    <p>@currentBook.Title</p>
+    <p>@currentBook.Description</p>
+    <p>@currentBook.Autor</p>
+    <hr />
+}
+
+
+<p>If-Statement</p>
+@if (DateTime.IsLeapYear(2016))
+{
+    <p>Ist ein Schaltjahr</p>
+}
+else
+{
+    <p>Ist kein Schaltjahr</p>
+}
+
+<div style='@(Model.First().Id == 1 ? "background-color:yellow":"background-color:orange")'>Ausgabe, damit das Div auch eine gewisse Größe beinhaltet</div>
+@*<div style='@(Model.First().Id == 1 ? "background-color:yellow":"background-color:orange")'>Car-Color</div>*@
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autor)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Autor)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-controller="Book" asp-route-id="@item.Id">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+//lokaler C#-Block
+@{
+    void RenderName(string name)
+    {
+        <p>Name: <strong>@name</strong></p>
+    }
+
+    RenderName("Mahatma Gandhi");
+    RenderName("Martin Luther King, Jr.");
+
+    int value = 1;
+}
+
+
+@switch (value)
+{
+    case 1:
+        <p>The value is 1!</p>
+        RenderName("Haribo");
+        break;
+    case 1337:
+        <p>Your number is 1337!</p>
+        break;
+    default:
+        <p>Your number wasn't 1 or 1337.</p>
+        break;
+}
+
+@using (Html.BeginForm())
+{
+    <div>
+        Email: <input type="email" id="Email" value="">
+        <button>Register</button>
+    </div>
+}
+
+@try
+{
+
+}
+catch (Exception ex)
+{
+
+}
+finally
+{
+
+}
+
+
+@*@lock (obj)
+    {
+        // Ein Thread darf hier rein, die "anderen" müssen bei "lock" warten
+    }*@
+
+
+@section Scripts
+{
+    <script>
+        $('h1').text('Hallo liebe Teilnehmer');
+    </script>
+}
