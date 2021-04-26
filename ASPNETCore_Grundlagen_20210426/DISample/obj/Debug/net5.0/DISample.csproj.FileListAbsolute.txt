@@ -1,0 +1,12 @@
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\DISample\bin\Debug\net5.0\DISample.deps.json
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\DISample\bin\Debug\net5.0\DISample.dll
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\DISample\bin\Debug\net5.0\ref\DISample.dll
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\DISample\bin\Debug\net5.0\DISample.pdb
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\DISample\obj\Debug\net5.0\DISample.csprojAssemblyReference.cache
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\DISample\obj\Debug\net5.0\DISample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\DISample\obj\Debug\net5.0\DISample.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\DISample\obj\Debug\net5.0\DISample.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\DISample\obj\Debug\net5.0\DISample.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\DISample\obj\Debug\net5.0\DISample.dll
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\DISample\obj\Debug\net5.0\ref\DISample.dll
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\DISample\obj\Debug\net5.0\DISample.pdb
