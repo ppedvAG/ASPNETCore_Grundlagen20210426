@@ -1,10 +1,10 @@
 
 TAG1:
-- [ ] Einführungs DI 
-- [ ] Dependency Injection / Seperation of Concerne (3 Stunden) 
-- [ ] Startup-Klasse
-- [ ] IServiceCollection / ServiceProvider
-- [ ] Konfiguration 
+- [x] Einführungs DI 
+- [x] Dependency Injection / Seperation of Concerne (3 Stunden) 
+- [O] Startup-Klasse
+- [x] IServiceCollection / ServiceProvider
+- [x] Konfiguration 
 - [ ] DI-Specials -> Mocks, Entwickler - Prozess
 - [ ] Präsentationsschicht (1 Stunde) 
 - [ ] Razor-Syntax / RazorEngine 
@@ -25,8 +25,8 @@ TAG2:
 TAG3:
 - [ ] SignalR (Zusammenspiel mit Service Layer)
 - [ ] Sicherheit:
-- [ ] Identity.UI 
-- [ ] ActiveDirectory (lokal / azureAD)
+  - [ ] Identity.UI 
+  - [ ] ActiveDirectory (lokal / azureAD)
 - [ ] WebApi 
 - [ ] SwaggerUI 
 - [ ] HttpClient
@@ -34,3 +34,8 @@ TAG3:
 - [ ] XSD mit WebAPI 
 - [ ] WCF Client -> .NET 
 - [ ] Austausch XSD-Dateien
+
+
+Offene Fragen:
+
+- [ ] Kestrel wird nicht für https angeboten (VM)
