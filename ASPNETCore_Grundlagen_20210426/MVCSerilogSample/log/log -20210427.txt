@@ -1,0 +1,65 @@
+2021-04-27 09:46:17.831 +02:00 [INF] User profile is available. Using 'C:\Users\kw4\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-04-27 09:46:19.942 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-27 09:46:19.943 +02:00 [INF] Hosting environment: Development
+2021-04-27 09:46:19.944 +02:00 [INF] Content root path: C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\MVCSerilogSample
+2021-04-27 09:46:20.320 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44315/ - -
+2021-04-27 09:46:20.454 +02:00 [INF] Executing endpoint 'MVCSerilogSample.Controllers.HomeController.Index (MVCSerilogSample)'
+2021-04-27 09:46:20.756 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MVCSerilogSample.Controllers.HomeController (MVCSerilogSample).
+2021-04-27 09:46:21.175 +02:00 [INF] Executing action method MVCSerilogSample.Controllers.HomeController.Index (MVCSerilogSample) - Validation state: "Valid"
+2021-04-27 09:46:21.193 +02:00 [INF] Viele Grüße von HomeConroller.Index
+2021-04-27 09:46:21.207 +02:00 [INF] ::1
+2021-04-27 09:46:21.235 +02:00 [INF] Executed action method MVCSerilogSample.Controllers.HomeController.Index (MVCSerilogSample), returned result Microsoft.AspNetCore.Mvc.ViewResult in 19.48ms.
+2021-04-27 09:46:21.416 +02:00 [INF] Executing ViewResult, running view Index.
+2021-04-27 09:46:22.321 +02:00 [INF] Executed ViewResult - view Index executed in 1002.505ms.
+2021-04-27 09:46:22.326 +02:00 [INF] Executed action MVCSerilogSample.Controllers.HomeController.Index (MVCSerilogSample) in 1567.7649ms
+2021-04-27 09:46:22.329 +02:00 [INF] Executed endpoint 'MVCSerilogSample.Controllers.HomeController.Index (MVCSerilogSample)'
+2021-04-27 09:46:22.505 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44315/ - - - 200 - text/html;+charset=utf-8 2081.0392ms
+2021-04-27 09:46:22.657 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44315/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2021-04-27 09:46:22.698 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44315/css/site.css - -
+2021-04-27 09:46:22.758 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44315/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2021-04-27 09:46:22.797 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44315/lib/bootstrap/dist/css/bootstrap.min.css - -
+2021-04-27 09:46:22.858 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44315/lib/jquery/dist/jquery.min.js - -
+2021-04-27 09:46:22.961 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\MVCSerilogSample\wwwroot\css\site.css'
+2021-04-27 09:46:22.961 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\MVCSerilogSample\wwwroot\js\site.js'
+2021-04-27 09:46:22.972 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44315/css/site.css - - - 200 1417 text/css 277.4905ms
+2021-04-27 09:46:22.973 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44315/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 316.1732ms
+2021-04-27 09:46:23.066 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\MVCSerilogSample\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-04-27 09:46:23.073 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\MVCSerilogSample\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-04-27 09:46:23.091 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44315/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 396.8360ms
+2021-04-27 09:46:23.094 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44315/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 235.9971ms
+2021-04-27 09:46:23.190 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\MVCSerilogSample\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-04-27 09:46:23.198 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44315/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 401.4799ms
+2021-04-27 09:46:23.659 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44315/favicon.ico - -
+2021-04-27 09:46:23.668 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\MVCSerilogSample\wwwroot\favicon.ico'
+2021-04-27 09:46:23.669 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44315/favicon.ico - - - 200 5430 image/x-icon 10.1360ms
+2021-04-27 09:50:59.176 +02:00 [INF] User profile is available. Using 'C:\Users\kw4\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-04-27 09:51:00.722 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-27 09:51:00.722 +02:00 [INF] Hosting environment: Development
+2021-04-27 09:51:00.723 +02:00 [INF] Content root path: C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\MVCSerilogSample
+2021-04-27 09:51:00.964 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44315/ - -
+2021-04-27 09:51:01.150 +02:00 [INF] Executing endpoint 'MVCSerilogSample.Controllers.HomeController.Index (MVCSerilogSample)'
+2021-04-27 09:51:01.412 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MVCSerilogSample.Controllers.HomeController (MVCSerilogSample).
+2021-04-27 09:51:01.726 +02:00 [INF] Executing action method MVCSerilogSample.Controllers.HomeController.Index (MVCSerilogSample) - Validation state: "Valid"
+2021-04-27 09:51:01.747 +02:00 [INF] Viele Grüße von HomeConroller.Index
+2021-04-27 09:51:01.757 +02:00 [INF] ::1
+2021-04-27 09:51:01.786 +02:00 [INF] Executed action method MVCSerilogSample.Controllers.HomeController.Index (MVCSerilogSample), returned result Microsoft.AspNetCore.Mvc.ViewResult in 16.8277ms.
+2021-04-27 09:51:01.875 +02:00 [INF] Executing ViewResult, running view Index.
+2021-04-27 09:51:02.560 +02:00 [INF] Executed ViewResult - view Index executed in 710.4636ms.
+2021-04-27 09:51:02.564 +02:00 [INF] Executed action MVCSerilogSample.Controllers.HomeController.Index (MVCSerilogSample) in 1149.1987ms
+2021-04-27 09:51:02.566 +02:00 [INF] Executed endpoint 'MVCSerilogSample.Controllers.HomeController.Index (MVCSerilogSample)'
+2021-04-27 09:51:02.631 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44315/ - - - 200 - text/html;+charset=utf-8 1679.1553ms
+2021-04-27 09:51:02.710 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44315/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2021-04-27 09:51:02.710 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44315/lib/bootstrap/dist/css/bootstrap.min.css - -
+2021-04-27 09:51:02.718 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44315/css/site.css - -
+2021-04-27 09:51:02.718 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44315/lib/jquery/dist/jquery.min.js - -
+2021-04-27 09:51:02.757 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44315/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2021-04-27 09:51:02.762 +02:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2021-04-27 09:51:02.762 +02:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2021-04-27 09:51:02.762 +02:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2021-04-27 09:51:02.762 +02:00 [INF] The file /css/site.css was not modified
+2021-04-27 09:51:02.762 +02:00 [INF] The file /js/site.js was not modified
+2021-04-27 09:51:02.771 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44315/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 52.1981ms
+2021-04-27 09:51:02.771 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44315/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 60.6530ms
+2021-04-27 09:51:02.772 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44315/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 61.7860ms
+2021-04-27 09:51:02.772 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44315/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 15.3329ms
+2021-04-27 09:51:02.772 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44315/css/site.css - - - 304 - text/css 54.1989ms

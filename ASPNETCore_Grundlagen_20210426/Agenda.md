@@ -6,21 +6,22 @@ TAG1:
 - [x] IServiceCollection / ServiceProvider
 - [x] Konfiguration 
 - [ ] DI-Specials -> Mocks, Entwickler - Prozess
-- [ ] Präsentationsschicht (1 Stunde) 
-- [ ] Razor-Syntax / RazorEngine 
-- [ ] RazorPages / MVC
+- [x] Präsentationsschicht (1 Stunde) 
+- [x] Razor-Syntax / RazorEngine 
+- [x] RazorPages / MVC
 
 TAG2:
-- [ ] Logging + Fehlerbehandlung
-- [ ] Middleware
-- [ ] Einbinden einer HotReload Middleware
-- [ ] Erstellen einer benutzerdefinierten Middleware (ThumbNail Generator) 
-- [ ] State Management 
-- [ ] ViewDate / TempDate / Session / (ViewBag) 
-- [ ] Routing
+- [x] Logging + Fehlerbehandlung 
+- [x] Middleware -> Was ist ein Pipeline (Use, Run, Map)
+- [x] Einbinden einer HotReload Middleware
+- [x] Erstellen einer benutzerdefinierten Middleware (ThumbNail Generator) (MapWhen)
 - [ ] Datenmodellierung mit Entity Framework Core 5
   - [ ] Einführung
   - [ ] Strategien: CodeFirst / CodeFirst Reverse
+
+- [ ] State Management (30 Min)
+    - [ ] ViewDate / TempDate / Session / (ViewBag) 
+- [ ] Routing (10Min)
 
 TAG3:
 - [ ] SignalR (Zusammenspiel mit Service Layer)
@@ -36,6 +37,10 @@ TAG3:
 - [ ] Austausch XSD-Dateien
 
 
-Offene Fragen:
+Offene Fragen (für Mittwoch):
 
-- [ ] Kestrel wird nicht für https angeboten (VM)
+- [ ] Kestrel wird nicht für https angeboten (VM) -> Deploy-Einstellung oder VM-Settings?
+- [ ] Logging - Monitoring
+- [ ] RequestLogging mit Serilog -> Codealternative 
+- [ ] Visual Studio 2019 EDMX Datei Anzeigen lassen?
+- [ ] 

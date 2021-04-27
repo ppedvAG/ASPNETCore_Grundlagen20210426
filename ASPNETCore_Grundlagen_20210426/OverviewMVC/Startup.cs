@@ -28,6 +28,8 @@ namespace OverviewMVC
                                                 //Konvention -> Benutze die Verzeichnisse "Controller" / "Views" / "Models"
 
             services.AddSingleton<ICar, MockCar>();
+            //services.AddSingleton<ICar, Car>(); //Objekt Car würde Objekt MockCar überschreiben
+
             //services.AddTransient<ICar, MockCar>();
             //services.AddScoped<ICar, MockCar>();
             //services.AddSingleton(typeof(ICar), typeof(MockCar)); //weitere Variante
@@ -51,7 +53,6 @@ namespace OverviewMVC
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();

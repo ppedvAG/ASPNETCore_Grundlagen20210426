@@ -1,7 +1,9 @@
 ﻿@model IEnumerable<MVCIntroductionSamples.Models.Book>
 
-@using DISample.Better
-@inject ICar MockCar @*Inject greift auf den IOC - Container zu*@
+@using DISample.Better;
+@inject ICar MockCar
+    
+    @*Inject greift auf den IOC - Container zu*@
 
 @{
     ViewData["Title"] = "Index";
@@ -59,5 +61,5 @@
 
 <p>@MockCar.Brand</p>
 <p>@MockCar.Model</p>
-<p>@MockCarConstructYear.</p>
+<p>@MockCar.ConstructYear</p>
 

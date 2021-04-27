@@ -22,6 +22,7 @@ namespace OverviewMVC.Controllers
 
         public IActionResult Index()
         {
+            _logger.LogInformation("Hallo von Index");
             return View();
         }
 

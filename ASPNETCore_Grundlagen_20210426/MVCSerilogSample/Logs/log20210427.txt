@@ -1,0 +1,2 @@
+2021-04-27 10:09:45.749 +02:00 [INF] Viele Grüße von HomeConroller.Index
+2021-04-27 10:09:46.481 +02:00 [INF] ::1
