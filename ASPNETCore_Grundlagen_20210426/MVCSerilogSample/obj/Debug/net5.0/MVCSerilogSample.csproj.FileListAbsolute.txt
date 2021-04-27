@@ -49,3 +49,4 @@ C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\M
 C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\MVCSerilogSample\obj\Debug\net5.0\ref\MVCSerilogSample.dll
 C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\MVCSerilogSample\obj\Debug\net5.0\MVCSerilogSample.pdb
 C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\MVCSerilogSample\obj\Debug\net5.0\MVCSerilogSample.genruntimeconfig.cache
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\MVCSerilogSample\obj\Debug\net5.0\MVCSerilogSample.csprojAssemblyReference.cache

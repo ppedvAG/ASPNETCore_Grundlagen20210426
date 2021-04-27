@@ -9,3 +9,4 @@ C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\D
 C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\DISample\obj\Debug\net5.0\DISample.dll
 C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\DISample\obj\Debug\net5.0\ref\DISample.dll
 C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\DISample\obj\Debug\net5.0\DISample.pdb
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\DISample\obj\Debug\net5.0\DISample.csprojAssemblyReference.cache

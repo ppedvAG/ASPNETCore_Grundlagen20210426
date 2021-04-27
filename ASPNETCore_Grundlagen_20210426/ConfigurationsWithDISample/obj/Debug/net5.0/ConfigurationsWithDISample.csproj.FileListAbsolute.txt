@@ -38,3 +38,4 @@ C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\C
 C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\ConfigurationsWithDISample\obj\Debug\net5.0\ConfigurationsWithDISample.genruntimeconfig.cache
 C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\ConfigurationsWithDISample\obj\Debug\net5.0\ConfigurationsWithDISample.csproj.CopyComplete
 C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\ConfigurationsWithDISample\bin\Debug\net5.0\samplewebsettings.json
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\ConfigurationsWithDISample\obj\Debug\net5.0\ConfigurationsWithDISample.csprojAssemblyReference.cache

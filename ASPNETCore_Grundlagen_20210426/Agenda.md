@@ -15,26 +15,33 @@ TAG2:
 - [x] Middleware -> Was ist ein Pipeline (Use, Run, Map)
 - [x] Einbinden einer HotReload Middleware
 - [x] Erstellen einer benutzerdefinierten Middleware (ThumbNail Generator) (MapWhen)
-- [ ] Datenmodellierung mit Entity Framework Core 5
-  - [ ] Einführung
-  - [ ] Strategien: CodeFirst / CodeFirst Reverse
+- [x] Datenmodellierung mit Entity Framework Core 5
+  - [x] Einführung
+  - [x] Strategien: CodeFirst / CodeFirst Reverse
 
-- [ ] State Management (30 Min)
-    - [ ] ViewDate / TempDate / Session / (ViewBag) 
-- [ ] Routing (10Min)
+  - [x] POST-MEthoden
+
 
 TAG3:
-- [ ] SignalR (Zusammenspiel mit Service Layer)
+- [ ] Ein Formular mit mehren Buttons (Post-Methoden oder Handler?)
+- [ ] State Management (30 Min)
+    - [ ] ViewDate / TempDate / Session / (ViewBag) 
+ 
+- [ ] Routing (10Min)
+
 - [ ] Sicherheit:
   - [ ] Identity.UI 
   - [ ] ActiveDirectory (lokal / azureAD)
+
+
 - [ ] WebApi 
-- [ ] SwaggerUI 
-- [ ] HttpClient
-- [ ] Code Generierung mit Swagger
-- [ ] XSD mit WebAPI 
-- [ ] WCF Client -> .NET 
-- [ ] Austausch XSD-Dateien
+  - [ ] SwaggerUI (10 Min)
+  - [ ] HttpClient (wird nich expliziet)
+  - [ ] Code Generierung mit Swagger (5. Min)
+
+- [ ] WCF Client -> .NET Core
+- [ ] Austausch XSD-Dateien / XSD mit WebAPI -> Muss ich intern absprechen 
+- [ ] SignalR (Zusammenspiel mit Service Layer)
 
 
 Offene Fragen (für Mittwoch):
@@ -43,4 +50,9 @@ Offene Fragen (für Mittwoch):
 - [ ] Logging - Monitoring
 - [ ] RequestLogging mit Serilog -> Codealternative 
 - [ ] Visual Studio 2019 EDMX Datei Anzeigen lassen?
-- [ ] 
+
+
+- Link-Collections
+Bootrap 4:
+https://www.w3schools.com/bootstrap4/ 
+https://getbootstrap.com/docs/5.0/layout/containers/
