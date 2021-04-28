@@ -1,0 +1,40 @@
+﻿@model PartialViewAndViewComponentsSample.ViewModels.EarthLifeVM
+@{
+
+}
+
+<h3>Gebe Alle Tiere aus</h3>
+
+@foreach (Animal currentAnimal in Model.AlleTiere)
+{
+    <p>@currentAnimal.Name</p>
+}
+
+<input id="btnShowMore" type="button" />
+
+<partial name="_HumunsPartialView" />
+
+
+<div id="abc">
+    @foreach (Humans currentHumans in Model.AllHumans)
+    {
+        <p>@currentHumans.Id</p>
+        <p>@currentHumans.Name</p>
+        <p>@currentHumans.Birthday</p>
+    }
+</div>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $("#abc").hide();
+        });
+
+
+        $('#btnShowMore').on('click', function () {
+            $('#abc').show();
+        });
+    </script>
+}
+
+

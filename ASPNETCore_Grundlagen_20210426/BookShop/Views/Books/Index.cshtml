@@ -1,0 +1,103 @@
+﻿@model BookShop.ViewModels.BooksVM
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Bücherliste</h1>
+
+
+<partial name="_NewestBookPartial" />
+<partial name="_NewestAudioBookPartial" />
+
+
+
+
+
+<form asp-controller="Books" asp-action="Index" method="get">
+    <p class="abc">
+        Title: <input type="text" name="query" />
+        AudioBook: @Html.CheckBox("audioBook", false)
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<a asp-action="Create">Erstelle neues Buch</a>
+
+<form method="post">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Titelbild
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Books[0].Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Books[0].Author)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Books[0].Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Books[0].AudioBook)
+                </th>
+                <th>
+                    Details
+                </th>
+                <th>
+                    Buy
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Book item in Model.Books)
+            {
+                <tr>
+                    <td>
+                        <a href="~/images/@System.IO.Path.GetFileName(item.PictureName)">
+                            <img class="img-fluid" src="/imagegen?img=/@System.IO.Path.GetFileName(item.PictureName)" />
+                        </a>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Author)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AudioBook)
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.ID">Details</a>
+                        @*@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ })*@
+                    </td>
+                    <td>
+                        <button class="btn-light" asp-action="buy" asp-route-id="@item.ID" type="submit">Buy</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>
+
+
+
+<p><button class="btn btn-primary" id="load">Load</button></p>
+
+<div id="grid"></div>
+
+@section scripts{
+    <script>
+        $(function () {
+            $('#load').on('click', function () {
+                $('#grid').load('/Books/OnGetNewestBookPartial');
+            });
+        });
+    </script>
+}

@@ -1,0 +1,12 @@
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\Movie.Domain\bin\Debug\net5.0\Movie.Domain.deps.json
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\Movie.Domain\bin\Debug\net5.0\Movie.Domain.dll
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\Movie.Domain\bin\Debug\net5.0\ref\Movie.Domain.dll
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\Movie.Domain\bin\Debug\net5.0\Movie.Domain.pdb
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\Movie.Domain\obj\Debug\net5.0\Movie.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\Movie.Domain\obj\Debug\net5.0\Movie.Domain.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\Movie.Domain\obj\Debug\net5.0\Movie.Domain.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\Movie.Domain\obj\Debug\net5.0\Movie.Domain.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\Movie.Domain\obj\Debug\net5.0\Movie.Domain.dll
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\Movie.Domain\obj\Debug\net5.0\ref\Movie.Domain.dll
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\Movie.Domain\obj\Debug\net5.0\Movie.Domain.pdb
+C:\Aktueller Kurs\ASPNETCore_Grundlagen20210426\ASPNETCore_Grundlagen_20210426\Movie.Domain\obj\Debug\net5.0\Movie.Domain.csprojAssemblyReference.cache

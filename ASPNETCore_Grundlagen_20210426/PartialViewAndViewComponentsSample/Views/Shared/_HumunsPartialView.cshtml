@@ -1,0 +1,8 @@
+﻿@model PartialViewAndViewComponentsSample.ViewModels.EarthLifeVM
+
+@foreach (Humans currentHumans in Model.AllHumans)
+{
+    <p>@currentHumans.Id</p>
+    <p>@currentHumans.Name</p>
+    <p>@currentHumans.Birthday</p>
+}

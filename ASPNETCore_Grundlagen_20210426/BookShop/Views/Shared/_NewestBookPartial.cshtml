@@ -1,0 +1,24 @@
+﻿@model BookShop.ViewModels.BooksVM
+
+
+@if (Model != null)
+{
+    @if (Model.NewestPublishedBook.ID != Guid.Empty)
+    {
+        <p>Newest Book</p>
+        <div class="card">
+            <div class="card-body">
+                <p>@Model.NewestPublishedBook.Title</p>
+                <p>@Model.NewestPublishedBook.Author</p>
+                <p>@Model.NewestPublishedBook.Price</p>
+                <p>@Model.NewestPublishedBook.Published</p>
+            </div>
+        </div>
+    }
+}
+else
+{
+    <p>ViewModel müsste nachgeladen werden</p>
+}
+
+

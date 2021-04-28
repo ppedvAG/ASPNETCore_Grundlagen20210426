@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "TempDataSample1";
+
+    //string message = TempData["abc"].ToString(); //ACHTUNG ERSTER ZUGRIFF
+    //int id = Convert.ToInt32(TempData["id"]);
+    //TempData.Keep();
+
+    string message = TempData.Peek("abc").ToString();
+    int id = Convert.ToInt32(TempData.Peek("id"));
+
+
+}
+
+<h1>TempDataSample1</h1>
+@*@TempData.Peek("abc").ToString();*@
+@message
+<br />
+@id

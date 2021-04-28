@@ -18,29 +18,29 @@ TAG2:
 - [x] Datenmodellierung mit Entity Framework Core 5
   - [x] Einführung
   - [x] Strategien: CodeFirst / CodeFirst Reverse
-
   - [x] POST-MEthoden
 
 
 TAG3:
-- [ ] Ein Formular mit mehren Buttons (Post-Methoden oder Handler?)
-- [ ] State Management (30 Min)
-    - [ ] ViewDate / TempDate / Session / (ViewBag) 
+- [x] Ein Formular mit mehren Buttons (Post-Methoden oder Handler?)
+- [x] State Management (30 Min)
+    - [x] ViewDate / TempDate / Session / (ViewBag) 
  
-- [ ] Routing (10Min)
+- [x] Routing (10Min)
 
-- [ ] Sicherheit:
+- [x] PartialViews / ViewComponent (Localisation) 13:10 - 14:00
+
+- [ ] Sicherheit: (30Min) 
   - [ ] Identity.UI 
   - [ ] ActiveDirectory (lokal / azureAD)
 
 
-- [ ] WebApi 
+- [ ] WebApi 14:30 
   - [ ] SwaggerUI (10 Min)
   - [ ] HttpClient (wird nich expliziet)
   - [ ] Code Generierung mit Swagger (5. Min)
 
-- [ ] WCF Client -> .NET Core
-- [ ] Austausch XSD-Dateien / XSD mit WebAPI -> Muss ich intern absprechen 
+- [ ] WCF Client -> .NET Core  Frage:Austausch XSD-Dateie mit WebAPI -> Muss ich intern absprechen 
 - [ ] SignalR (Zusammenspiel mit Service Layer)
 
 

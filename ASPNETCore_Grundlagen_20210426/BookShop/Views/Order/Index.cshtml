@@ -1,0 +1,75 @@
+﻿@model IEnumerable<BookShop.Models.Book>
+
+@{
+    ViewData["Title"] = "ShoppingCart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>ShoppingCart</h1>
+
+@if (Model.Count() > 0)
+{
+    <form method="post">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Title)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Author)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Price)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Published)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.AudioBook)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PictureName)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Title)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Author)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Price)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Published)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.AudioBook)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PictureName)
+                        </td>
+                        <td>
+                            <button class="btn-light" asp-action="cancel" asp-route-id="@item.ID" type="submit">-</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </form>
+
+    <a class="nav-link text-dark" id="register" asp-action="Payment">Zur Kasse</a>
+}
+else
+{
+    <h5>Es befinden sich keine Artikel im Warenkorb</h5>
+}
+
+
